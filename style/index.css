@@ -4,8 +4,11 @@
 *{
     margin: 0;
     padding: 0;
+   
+}
+body{
     font-family: "Inter", sans-serif;
-    
+    width: 100%;
 }
 
 .fitness{
@@ -14,13 +17,31 @@
     
 }
 
+.fitness-btn{
+    width:  80px;
+    height: 30px;
+    padding: 10px 20px 0px 20px;
+    border-radius: 46px ;
+    background-color: #E6533C;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 
 /* navigation bar style */
-
+main{
+   background-color:   rgba(21, 21, 21, 0.947);
+   height: 100%;
+}
 .navigation{
+
+    width: 1000px;
     display: flex;
     justify-content: space-between;
-    margin: 60px 150px;
+    padding:30px 100px 50px 100px;
+    
    
 
 }
@@ -42,6 +63,7 @@
 .nav-list >ul > li{
     list-style: none;
     margin-top: 1rem;
+    color: white;
 }
 
 .nav-home{
@@ -54,4 +76,122 @@
     text-align: center;
     align-items: center;
     margin-top: 1rem;
+}
+/* section healthy style */
+
+
+.healthy{
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.healthy-header{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+.health-head{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+ .font{
+    font-weight: 400;
+    font-family: "Dancing Script", cursive;
+ }
+
+ .healthy-description{
+    color:rgba(255, 255, 255, 0.5);
+    padding-right: 20px;
+    
+ }
+
+ .btn-1{
+    width: 150px;
+    height: 50px;
+    border-radius: 42px;
+    padding: 18px 25px;
+    gap:10px;
+    border: none;
+    color: white;
+ }
+
+ .btn-2{
+    width: 150px;
+    height: 50px;
+    border-radius: 42px;
+    padding: 18px 25px;
+    gap:10px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(47, 45, 45, 0.299);
+ }
+ 
+ .healthy-img{
+    width: 300px;
+   height: 500px;
+    /* position: relative;
+    left: 40px;
+    bottom: 60px; */
+    background-size: cover;
+ }
+
+
+
+
+@media screen and (max-width:576px){
+*{
+    padding: 0px;
+    margin: 0px;
+}
+  /* nav style */
+    .navigation{
+       width: calc(100% - 20px);
+       margin-left:20px;
+       padding: 5px 0px;
+       gap:10px;
+       flex-direction: column-reverse;
+}
+  
+/* heathy style */
+
+.healthy{
+    flex-direction: column;
+    width: 100%;
+}
+
+.healthy-head{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px;
+
+}
+.healthy-header{
+    margin-left: 20px;
+    width: calc(100% - 20px);
+}
+
+.healthy-description{
+    width: 250px;
+}
+
+.health-button{
+   
+}
+
+.healthy-img{
+    width: 250px;
+    height: 600px;
+    margin-left: 60px;
+    background-size: cover;
+    align-items: center;
+   
+
+}
+
 }
