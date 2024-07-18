@@ -138,11 +138,42 @@ main{
     /* position: relative;
     left: 40px;
     bottom: 60px; */
-    background-size: cover;
+    /* background-size: cover; */
+ }
+
+ .batch-1{
+    width: 170px;
+    height: 90px;
+    background-color: rgba(201, 198, 198, 0.374);
+    position: relative;
+    top: -380px;
+    left: 220px;
+    border-radius: 1.5rem;
+   border: none;
+    align-items: center;
+ }
+
+ .batch-1-bold{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+ }
+
+ .description{
+    color: white;
  }
 
  /* habit section */
+ .habit{
+    width: 1000px;
+    height: 450px;
+ }
 
+ .habit-header{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+ }
 
 
 
