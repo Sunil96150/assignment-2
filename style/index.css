@@ -160,21 +160,192 @@ main{
  }
 
  .description{
+    color: rgba(239, 237, 232, 0.65);
+ }
+
+
+ .batch-2{
+    width: 180px;
+    height: 90px;
+    background-color: rgba(48, 48, 48, 0.54);
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    background-color:rgba(69, 69, 68, 0.65);
+    position: relative;
+    top: -230px;
+    right: 80px;
+    border-radius: 1.5rem;
+    border: none;
+   
+   
+ }
+
+  #vedio{
+    display: none;
+ } 
+
+ .circul{
+    border: 1px solid red;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+ }
+
+ .batch-2-bold{
+    font-size: 1.5rem;
+    font-weight: 900;
     color: white;
+
+ }
+
+ .batch-2-container{
+    padding-right: 0.75rem;
+    padding-top: 0.75rem;
+ }
+
+ .batch-2-description{
+    color: rgba(239, 237, 232, 0.65);
  }
 
  /* habit section */
  .habit{
     width: 1000px;
-    height: 450px;
+    height: 500px;
+    margin:0px auto;
+ }
+
+ .habit-container{
+    width: 650px;
+    height: 100px;
+    margin:0px auto ;
+    margin-top: 70px;
+    margin-bottom: 50px;
  }
 
  .habit-header{
     color: white;
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
+    align-items: center;
+
  }
 
+ .habit-description{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    align-items: center;
+   
+ }
+
+ /* fitness images */
+
+.habit-images{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.habit-imgs{
+    border-radius: 50%;
+    align-items: center;
+
+}
+
+.habit-images-1-title{
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-right: 35px;
+    padding: 25px; 
+}
+
+.habit-images-1-description{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+ 
+/* Running style */
+
+.run{
+    width: 1100px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex; */
+    justify-content: space-around;
+    gap: 200px;
+    border-radius: 1rem;
+    background-color: rgb(40, 39, 39);
+    margin: 0px auto; 
+    align-items: center;
+ 
+}
+
+.run-container{
+    margin-left: 80px;
+}
+
+.run-title{
+    font-size: 3rem;
+    color: white;
+   
+   
+}
+
+.run-description{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px 0px;
+   
+}
+
+
+.running-img{
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.running-btn{
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+
+}
+/* BMI calculation style */
+
+.bmi-containter{
+    width: 650px;
+    margin: 50px auto;
+}
+
+
+.table-head{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.table-data{
+    font-size: 20px;
+    
+   
+}
+
+.bmi-table-title{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
 
 
 
@@ -199,6 +370,7 @@ main{
     width: 100%;
 }
 
+
 .healthy-head{
     font-size: 35px;
     font-weight: bold;
@@ -214,18 +386,150 @@ main{
     width: 250px;
 }
 
-.health-button{
-   
-}
+
 
 .healthy-img{
     width: 250px;
-    height: 600px;
-    margin-left: 60px;
+    height: 500px;
+    margin: 0px auto;
     background-size: cover;
     align-items: center;
+    margin-bottom: 0px;
    
 
 }
+/* batch style */
+
+.batch-1{
+    width: 120px;
+    height: 75px;
+    background-color: rgba(201, 198, 198, 0.374);
+    position: relative;
+    top: -450px;
+    left: 190px;
+    border-radius: 1rem;
+   border: none;
+    align-items: center;
+   padding: 0px 5px 8px 5px;
+ }
+
+ .batch-1-bold{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+ }
+
+ .description{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.75rem;
+ }
+
+ .batch-2{
+    width: 170px;
+    height: 80px;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    background-color:rgba(69, 69, 68, 0.65);
+    position: relative;
+    top: -360px;
+    right: 40px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.circul{
+    border: 1px solid red;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    margin-left: 8px;
+ }
+  
+
+/* habit container */
+
+.habit{
+    width: 350px;
+    height: 1420px;
+}
+.habit-container{
+    width: 300px;
+    height: 110px;
+    margin: 0px auto;
+ }
+
+.habit-header{
+     font-size: 30px;
+     padding-bottom: 10px;
+
+ }
+
+.habit-description{
+    font-size: 16px;
+}
+
+.habit-images{
+    width: 0px;
+    height: 1300px;
+    margin: 0px auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.habit-images-1-title{
+  margin-right: 0px;
+}
+
+.run{
+    width: 320px;
+    height: 500px ;
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    justify-content: space-around;
+    padding:0px auto;
+    
+}
+
+
+.run-container{
+    width: 300px;
+    margin-left:0px;
+}
+
+.run-title{
+    font-size: 2.25rem;
+    margin: 0px;
+}
+.run-description{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.running-btn{
+    width: 280px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.running-img{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    align-items: center;
+    margin-bottom: 0px;
+   
+}
+
+
+
 
 }
