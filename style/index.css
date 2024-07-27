@@ -20,19 +20,19 @@ body{
 .fitness-btn{
     width:  80px;
     height: 30px;
-    padding: 10px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 46px ;
     background-color: #E6533C;
     color: white;
     text-align: center;
-    align-items: center;
+    align-items: center;    
     margin-top: 1rem;
 }
 
 
 /* navigation bar style */
 main{
-   background-color:   rgba(21, 21, 21, 0.947);
+   background-color: black;
    height: 100%;
 }
 .navigation{
@@ -86,6 +86,7 @@ main{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    background-image: linear-gradient(rgba(21, 21, 21, 0.947), );
 }
 
 .healthy-header{
@@ -212,6 +213,10 @@ main{
  }
 
  /* habit section */
+.habit-1{
+    width: 1200px;
+}
+
  .habit{
     width: 1000px;
     height: 500px;
@@ -276,7 +281,9 @@ main{
 }
  
 /* Running style */
-
+.run-1{
+    width: 1200px;
+ }
 .run{
     width: 1100px;
     height: 350px;
@@ -328,24 +335,105 @@ main{
     width: 650px;
     margin: 50px auto;
 }
+.bmi-body{
+    width: 1200px;
+}
+
+.bmi-2{
+    width: 1200px;
+    height: 450px;
+    background-color: rgba(78, 76, 76, 0.322);
+}
+
+.bmi-calculator{
+   
+    display: flex;
+    justify-content:space-between;
+    gap: 80px;
+
+}
+
+.bmi-table{
+  position: relative;
+  top:50px;
+  left: 100px;
+  
+}
+
+.bmi-form{
+    width: 550px;
+    position: relative;
+    top: 50px;
+    right: 80px;
+}
+
+
+
+
+
+
+
+td{
+    padding: 16px;
+}
 
 
 .table-head{
     color: white;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 18px;
 }
 
 .table-data{
-    font-size: 20px;
-    
+    color: rgba(255, 255, 255, 0.5);
    
+}
+
+.bmi-form-title{
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .bmi-table-title{
     font-size: 30px;
     margin-bottom: 40px;
 }
+/* form style */
+
+label{
+    display: block;
+    
+    
+}
+
+input{
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-items: left;
+    background-color:  rgba(78, 70, 70, 0.432) ;
+    border: none;
+    font-size: 15px;
+}
+
+.input-2{
+  padding: 12px 285px 12px 20px ;
+}
+
+.down-arow{
+    position: relative;
+    right: 40px;
+}
+
+.form-btn{
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-align: center ;
+
+}
+
+
 
 
 
@@ -354,6 +442,14 @@ main{
     padding: 0px;
     margin: 0px;
 }
+body{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+}
+main{
+    background-color: black;
+    height: 100%;
+ }
   /* nav style */
     .navigation{
        width: calc(100% - 20px);
@@ -452,15 +548,18 @@ main{
   
 
 /* habit container */
-
+.habit-1{
+    width: 425px;
+} 
 .habit{
     width: 350px;
-    height: 1420px;
+    height: 1500px;
+    margin:0px 0px 10px 5px;
 }
 .habit-container{
     width: 300px;
-    height: 110px;
-    margin: 0px auto;
+    height: 120px;
+    margin: 10px auto;
  }
 
 .habit-header{
@@ -488,6 +587,11 @@ main{
   margin-right: 0px;
 }
 
+/* Running style */
+
+.run-1{
+    width: 380px;
+ }
 .run{
     width: 320px;
     height: 500px ;
@@ -496,6 +600,7 @@ main{
     gap:0px;
     justify-content: space-around;
     padding:0px auto;
+    margin: 20px auto  ;
     
 }
 
@@ -529,7 +634,111 @@ main{
    
 }
 
+/* bmi calculator */
 
+.bmi{
+    width: 100%;
+}
+.bmi-containter{
+    width: 400px;
+    margin: 30px auto;
+}
+.bmi-body{
+    width: 400px;
+    margin: 30px;
+}
+
+.bmi-2{
+    width: 425px;
+    height: 1450px;
+    background-color: rgba(78, 76, 76, 0.322);
+}
+
+.bmi-calculator{
+   width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 10px;
+
+}
+
+.bmi-table{
+  position: relative;
+  top:10px;
+  left: 30px;
+  margin-bottom: 20px ;
+}
+
+.bmi-form{
+    width: 550px;
+    position: relative;
+    top: 5px;
+    left: 30px;
+   
+}
+
+
+td{
+    padding: 12px;
+}
+
+
+.table-head{
+    color: white;
+    font-size: 16px;
+}
+
+.table-data{
+    color: rgba(255, 255, 255, 0.5);
+   
+}
+
+.bmi-form-title{
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.bmi-table-title{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* form style */
+
+label{
+    display: block;
+    
+    
+}
+
+input{
+    padding: 8px 3px 8px 4px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-items: left;
+    background-color:  rgba(78, 70, 70, 0.432) ;
+    border: none;
+    font-size: 15px;
+}
+
+.input-2{
+  padding: 8px 180px 8px 8px ;
+}
+
+.down-arow{
+    position: relative;
+    right: 40px;
+}
+
+.form-btn{
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-align: center ;
+
+}
 
 
 }

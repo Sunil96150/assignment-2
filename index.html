@@ -53,7 +53,8 @@
         </div> 
     </section>
 
-    <section class="habit">
+    <section class="habit-1">
+     <div class="habit">   
        <div class="habit-container">
          <h1 class="habit-header">Change Your Habits</h1>
         <p class="habit-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
@@ -80,9 +81,10 @@
             <p class="habit-images-1-description">Walking can be a convenient way for many beginners</p>
         </div>
        </div>
-
+    </div>
     </section>
-    <section class="run">
+    <section class="run-1">
+      <div class="run">  
         <div class="run-container">
             <h1 class="run-title">
                 Run an Extra Mile Easily
@@ -99,18 +101,22 @@
         <div class="run-img">
             <img src="images/run.jpg" alt="" class="running-img">
         </div> 
+    </div>  
     </section>
 
     <section class="bmi">
-        <div class="bmi-containter">
-            <h1 class="bmi-title run-title">
-                BMI Calculator
-            </h1>
-            <p class="bmi-description run-description">
-                We believe fitness should be accessible to everyone, everywhere, regardless of income or 
-                access to a gym
-            </p>
+        <div class="bmi-body">
+            <div class="bmi-containter">
+                <h1 class="bmi-title run-title">
+                    BMI Calculator
+                </h1>
+                <p class="bmi-description run-description">
+                    We believe fitness should be accessible to everyone, everywhere, regardless of income or 
+                    access to a gym
+                </p>
+            </div>
         </div>
+     <div class="bmi-2">
         <div class="bmi-calculator">
             <div class="bmi-table">
                 <h4 class="bmi-table-title run-title">
@@ -118,8 +124,8 @@
                 </h4>
                <table border="1">
                 <tr class="table-head">
-                    <th>BMI</th>
-                    <th>Weight Status</th>
+                    <td>BMI</td>
+                    <td>Weight Status</td>
                 </tr>
                 <tr class="table-data">
                     <td>Below 18.5</td>
@@ -146,10 +152,25 @@
                 <p class="run-description">
                     We believe fitness should be accessible to everyone, everywhere, regardless of 
                     income or access to a gym. </p>
-                
+
+                <form class="set-form">
+                    <label for="" class="lable-1">
+                        <input type="text" placeholder="Height/cm">
+                        <input type="text" placeholder="Weight/cm">
+                    </label>
+                    <label for="" class="lable-1">
+                        <input type="text" placeholder="Age">
+                        <input type="text" placeholder="Sex" >  <i class="fa-solid fa-angle-down down-arow"></i>
+                    </label>
+                    <label for="" class="label-2">
+                        <input class="input-2" type="text" placeholder="Select an activity factor"> <i class="fa-solid fa-angle-down down-arow"></i>
+                    </label>
+                </form>
+                <button class="form-btn fitness-btn">Calculator</button>
                
             </div>
         </div>
+      </div> 
     </section>
 
 </main>
