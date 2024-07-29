@@ -821,7 +821,7 @@ input{
 
 .our-team{
     width: 350px;
-    height: 750px;
+    height: 1400px;
     align-items: center;
     text-align: center;
     margin: 30px auto;
@@ -842,5 +842,81 @@ input{
     line-height: 20px;
     letter-spacing: 0.5px;
  }
+
+ /* team img */
+
+.team-img{
+    width: 320px;
+    height: 1180px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+   margin-top: 10px;
+   margin-left: 5px;
+   background-color: rgb(40, 39, 39);
+   padding: 10px ;
+   border-radius: 16px;
+}
+
+.trainer1,
+.trainer2,
+.trainer3,
+.trainer4,
+.trainer5,
+.trainer6{
+    width: 320px;
+    height: 270px;
+    border-radius: 16px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/* .trainer4,
+.trainer5,
+.trainer6{
+    position: relative;
+    top: -30px;
+} */
+
+.trainer1-description{
+    font-size: 18px;
+    color: white;
+    line-height: 25px;
+    position: relative;
+    top: -80px;
+    right: 80px;
+}
+
+.trainers-name{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.trainer2-description{
+    position: relative;
+    right: 60px;
+}
+
+.trainer4-description,
+.trainer5-description,
+.trainer6-description{
+    position: relative;
+    top: -120px;
+}
+
+.trainer1,
+.trainer4{
+    display: none;
+}
+
+.trainer-description,
+.trainer4-description{
+    display: none;
+}
+.team-2{
+    height: 300px;
+}
+
+
+
 
 }
