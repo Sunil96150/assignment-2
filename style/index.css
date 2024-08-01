@@ -58,13 +58,13 @@ main{
     display: flex;
     gap: 1.75rem;
     align-items: center;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .nav-list >ul > li{
     list-style: none;
     margin-top: 1rem;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     color: white;
 }
 
