@@ -2,13 +2,14 @@
 
 
 *{
-    margin: 0;
+    margin: 0px auto;
     padding: 0;
    
 }
 body{
     font-family: "Inter", sans-serif;
     width: 100%;
+    margin: 0px auto;  
 }
 
 .fitness{
@@ -34,12 +35,12 @@ body{
 main{
    background-color: black;
    height: 100%;
+   margin: 0px auto;
 }
 .navigation{
-
-    width: 1000px;
+    width: 1100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding:30px 100px 50px 100px;
     
    
@@ -47,11 +48,13 @@ main{
 }
 
 .nav-header{
-        font-size: 2rem;
+        font-size: 2.75rem;
         color: #E6533C;
         margin-top: 0.75rem;
-        
+        margin-left: -150px ;
 }
+
+
 
 
 .nav-list ul{
@@ -79,14 +82,18 @@ main{
 }
 /* section healthy style */
 
+.health-1{
+    width: 1250px;
+}
 
 .healthy{
-    width: 1100px;
+    width: 1200px; 
     height: 100%;
     display: flex;
     justify-content: space-between;
     gap: 40px;
     background-image: linear-gradient(rgba(21, 21, 21, 0.947), );
+    margin: 0px auto;
 }
 
 .healthy-header{
@@ -135,11 +142,9 @@ main{
  
  .healthy-img{
     width: 300px;
-   height: 500px;
-    /* position: relative;
-    left: 40px;
-    bottom: 60px; */
-    /* background-size: cover; */
+    height: 500px;
+    margin-right: 200px;
+    
  }
 
  .batch-1{
@@ -214,7 +219,7 @@ main{
 
  /* habit section */
 .habit-1{
-    width: 1250px;
+     width: 1250px; 
 }
 
  .habit{
@@ -348,7 +353,7 @@ main{
 .bmi-calculator{
    
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     gap: 80px;
 
 }
@@ -430,7 +435,7 @@ input{
 /* "our-team style" */
 
 .our-team-container{
-    width: 1250px;
+    width: 1250px; 
 }
 
 .our-team{
@@ -570,9 +575,9 @@ hr{
 }
 
 .footer-description{
-    width: 400px;
-    margin-left: 450px;
-    margin-top: 30px;
+    width: 400px; 
+    margin: 30px auto;
+    justify-content: center;
     align-items: center;
     font-size: 20px;
     font-weight: 400;
@@ -600,6 +605,10 @@ main{
        padding: 5px 0px;
        gap:10px;
        flex-direction: column-reverse;
+}
+
+.nav-header{
+    margin-left: 0px;
 }
   
 /* heathy style */
