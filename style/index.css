@@ -38,7 +38,7 @@ main{
    margin: 0px auto;
 }
 .navigation{
-    width: 1100px;
+    width: 1000px;
     display: flex;
     justify-content: space-evenly;
     padding:30px 100px 50px 100px;
@@ -54,18 +54,17 @@ main{
         margin-left: -150px ;
 }
 
-
-
-
 .nav-list ul{
     display: flex;
-    gap: 1.50rem;
+    gap: 1.75rem;
     align-items: center;
+    margin-left: 10px;
 }
 
 .nav-list >ul > li{
     list-style: none;
     margin-top: 1rem;
+    margin-left: 10px;
     color: white;
 }
 
@@ -326,6 +325,8 @@ main{
     width: 400px;
     height: 300px;
     border-radius: 12px;
+    object-fit: none;
+    object-position: 66% 33%;
 }
 
 .running-btn{
@@ -540,7 +541,7 @@ input{
     line-height:  80px;
     letter-spacing: 0.5px;
     margin-top: 0px;
-    
+    margin-left: 0px; 
 }
 
 .footer-fitness-description{
@@ -595,6 +596,7 @@ hr{
 }
 
 main{
+    width: 100%;
     background-color: black;
     height: 100%;
  }
