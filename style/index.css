@@ -512,8 +512,8 @@ input{
 /* footer style */
 
 .footer{
-    width: 1255px;
-    height: 400px;
+    width: 1260px;
+    height: 450px;
     background-color: rgb(40, 39, 39);
 }
 
@@ -561,7 +561,25 @@ input{
     list-style: none;
 }
 
+hr{
+    width: 1000px;
+    margin: 0px auto;
+    color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1) ; 
+}
 
+.footer-description{
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    
+}
 
 
 @media screen and (max-width:576px){
@@ -674,7 +692,8 @@ main{
 
  /* habit container */
  .habit-1{
-    width: 350px;
+    width: 400px;
+    
 } 
 .habit{
     width: 100%;
@@ -756,7 +775,7 @@ main{
     background-size: cover;
     align-items: center;
     margin-bottom: 0px;
-   
+
 }
 
 /* bmi calculator */
@@ -879,7 +898,7 @@ input{
 /* "our-team style" */
 .our-team-container{
     width: 420px;
-    margin: ;
+
 }
 .our-team{
     width: 350px;
@@ -978,7 +997,77 @@ input{
     height: 300px;
 }
 
+/* footer style */
 
+.footer{
+    width: 420px;
+    height: 800px;
+    background-color: rgb(40, 39, 39);
+}
+
+.footer-container{
+    width: 380px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px auto;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.footer-fitness-title{
+    font-size: 60px;
+    font-weight: 900;
+    line-height:  80px;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    
+}
+
+.footer-fitness-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.footer-sevice-title, .footer-platform-title{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+   margin-top: 20px;
+}
+
+.footer-service-description, .footer-platform-list  {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer-service-description> li, .footer-platform-list > li  {
+    list-style: none;
+}
+
+hr{
+    width: 380px;
+    margin: 0px auto;
+    color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1) ; 
+}
+
+.footer-description{
+    width: 380px;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    
+}
 
 
 }
