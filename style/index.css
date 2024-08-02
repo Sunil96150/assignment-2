@@ -58,13 +58,11 @@ main{
     display: flex;
     gap: 1.75rem;
     align-items: center;
-    /* margin-left: 10px; */
 }
 
 .nav-list >ul > li{
     list-style: none;
     margin-top: 1rem;
-    /* margin-left: 10px; */
     color: white;
 }
 
@@ -119,18 +117,19 @@ main{
  }
 
  .btn-1{
-    width: 150px;
-    height: 50px;
+    width: 160px;
+    height: 55px;
     border-radius: 42px;
     padding: 18px 25px;
     gap:10px;
     border: none;
+    text-align: center ;
     color: white;
  }
 
  .btn-2{
-    width: 150px;
-    height: 50px;
+    width: 160px;
+    height: 55px;
     border-radius: 42px;
     padding: 18px 25px;
     gap:10px;
@@ -326,13 +325,14 @@ main{
     height: 300px;
     border-radius: 12px;
     object-fit: none;
-    object-position: 66% 33%;
+    object-position: 66% 28%;
 }
 
 .running-btn{
     font-size: 18px;
     width: 200px;
-    height: 50px;
+    height: 55px;
+    text-align: center ;
 
 }
 /* BMI calculation style */
@@ -516,6 +516,35 @@ input{
     top: -120px;
 }
 
+.span-name-1{
+    position: relative;
+    right: 23px;
+}
+
+.span-name-2{
+    position: relative;
+    right: 60px;
+}
+
+.span-name-3{
+    position: relative;
+    right: 40px;
+}
+
+.span-name-4{
+    position: relative;
+    right: 35px;
+}
+
+.span-name-5{
+    position: relative;
+    right: 23px;
+}
+
+.span-name-6{
+    position: relative;
+    right: 35px;
+}
 /* footer style */
 
 .footer{
@@ -787,6 +816,8 @@ main{
     background-size: cover;
     align-items: center;
     margin-bottom: 0px;
+    object-position: none;
+    object-fit: cover;
 
 }
 
