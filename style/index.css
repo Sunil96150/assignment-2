@@ -164,11 +164,12 @@ main{
  .batch-1{
     width: 170px;
     height: 90px;
-    background-color: rgba(201, 198, 198, 0.374);
+    background-color: rgba(255, 255, 255, 0.162);
+    backdrop-filter: blur(10px);
     position: relative;
     top: -380px;
     left: 220px;
-    border-radius: 1.5rem;
+    border-radius: 0.75rem;
    border: none;
     align-items: center;
  }
@@ -187,17 +188,16 @@ main{
  .batch-2{
     width: 180px;
     height: 90px;
-    background-color: rgba(48, 48, 48, 0.54);
+    background: rgba(48, 48, 48, 0.54); 
+    backdrop-filter: blur(10px); 
     display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    background-color:rgba(69, 69, 68, 0.65);
+    justify-content: space-around;
     position: relative;
     top: -230px;
-    right: 80px;
-    border-radius: 1.5rem;
+    right: 170px;
+    border-radius: 0.75rem;
     border: none;
-   
+  
    
  }
 
@@ -213,13 +213,17 @@ main{
     border-radius: 50%;
     position: relative;
     top: 25px;
+    left: 15px;
  }
 
  .batch-2-bold{
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 900;
     color: white;
-
+    line-height: 2.25rem;
+    letter-spacing: 0.3px;
+    position: relative;
+    left: -15px;
  }
 
  .batch-2-container{
@@ -308,7 +312,6 @@ main{
     height: 350px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* display: flex; */
     justify-content: space-around;
     gap: 200px;
     border-radius: 1rem;
@@ -350,7 +353,7 @@ main{
     height: 55px;
     text-align: center ;
 
-}
+} 
 /* BMI calculation style */
 
 .bmi-containter{
@@ -647,7 +650,7 @@ main{
  }
   /* nav style */
     .navigation{
-       width: calc(100% - 20px);
+       width: calc(100% - 40px);
        margin-left: 20px;
        padding: 5px 0px;
        gap: 50%;
@@ -668,39 +671,36 @@ main{
 }
 
 .nav-manu{
-    margin: 25px 25px 10px 0px;
-}
+    margin: 25px 0px 10px 0px;
+} 
 
 .menu-ber{
     color: white;
     
 }
 .nav-manu{
- display: block;
-}
+     display: block; 
+} 
 
 .menu-ber > ul{
     font-size: 16px;
-}
+} 
 
-.menu-ber > ul> li{
+ .menu-ber > ul> li{
     list-style: none;
-}
-.menu-ber > ul> li >a{
+} 
+ .menu-ber > ul> li >a{
     text-decoration: none;
     color: white;
     line-height: 40px;
     letter-spacing: 1px;
-}  
+}   
 
 .menu-ber .menu-list{
-    display: none;
-}
+    display: none; 
+} 
 
-.menu-ber:hover > .menu-list{
-    display: block;
-   
-}
+
 
 
 .nav-home{
@@ -762,13 +762,14 @@ main{
 /* batch style */
 
 .batch-1{
-    width: 120px;
+    width: 150px;
     height: 75px;
-    background-color: rgba(201, 198, 198, 0.374);
+    background-color: rgba(255, 255, 255, 0.162);
+    backdrop-filter: blur(10px);
     position: relative;
     top: -450px;
-    left: 190px;
-    border-radius: 1rem;
+    left: 175px;
+    border-radius: 10px;
    border: none;
     align-items: center;
    padding: 0px 5px 8px 5px;
@@ -791,11 +792,12 @@ main{
     display: flex;
     gap: 1.5rem;
     justify-content: center;
-    background-color:rgba(69, 69, 68, 0.65);
+    background: rgba(48, 48, 48, 0.54); 
+    backdrop-filter: blur(10px); 
     position: relative;
     top: -360px;
     right: 40px;
-    border-radius: 12px;
+    border-radius: 10px;
     border: none;
 
 }
@@ -808,6 +810,7 @@ main{
     border-radius: 50%;
     position: relative;
     top: 20px;
+    left: 15px;
     margin-left: 8px;
  }
   
@@ -818,7 +821,7 @@ main{
     
 } 
 .habit{
-    width: 100%;
+    width: calc(100% - 20px);
     height: 1500px;
     margin:0px 0px 10px 5px;
 }
@@ -856,7 +859,8 @@ main{
 /* Running style */
 
 .run-1{
-    width: 420px;
+    max-width: 420px;
+    margin: 0px auto;
  }
 .run{
     width: 370px;
@@ -900,28 +904,32 @@ main{
     object-position: none;
     object-fit: cover;
 
-}
+} 
 
 /* bmi calculator */
 
-
+/* .bmi{
+    max-width: 100%;
+} */
 .bmi-containter{
     width: 380px;
     margin: 0px auto;
 }
 .bmi-body{
-    width: 350px;
-    margin: 30px auto ;
+    width: 360px;
+    margin: 0px auto ;
+    position: relative;
+    right: 10px;
 }
 
 .bmi-2{
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
     height: 620px;
     background-color: rgba(78, 76, 76, 0.322);
 }
 
 .bmi-calculator{
-   width: 400px;
+   width: calc(100% - 50px);
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -930,11 +938,11 @@ main{
 }
 
 .bmi-table{
-    margin: 0px 0px 20px 0px;
-  position: relative;
-  top:10px;
-  left: 20px;
-
+    width: 250px;
+    position: relative;
+    top: 10px;     
+    left: -65px;
+    margin-bottom: 10px;
 }
 
 table{
@@ -945,7 +953,7 @@ table{
     width: 380px;
     position: relative;
     top: 5px;
-    left: 10px;
+    left: -5px;
    
 }
 
