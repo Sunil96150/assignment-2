@@ -682,38 +682,7 @@ main{
      display: block; 
 } 
 
-.menu-ber > ul{
-    font-size: 16px;
-} 
 
- .menu-ber > ul> li{
-    list-style: none;
-} 
- .menu-ber > ul> li >a{
-    text-decoration: none;
-    color: white;
-    line-height: 40px;
-    letter-spacing: 1px;
-}   
-
-.menu-ber .menu-list{
-    display: none; 
-} 
-
-
-
-
-.nav-home{
-    align-items: center;
-    position: relative;
-    right: 10px;
-    
-}
-
-.navhome{
-    position: relative;
-    top: -10px;
-}
 
 /* heathy style */
 
