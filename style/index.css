@@ -434,9 +434,28 @@ input{
     font-size: 15px;
 }
 
-.input-2{
-  padding: 12px 285px 12px 20px ;
+#sex{
+    padding: 12px 175px 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-items: left;
+    background-color:  rgba(78, 70, 70, 0.432) ;
+    border: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.256);
 }
+
+#factor{
+    padding: 12px 282px 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-items: left;
+    background-color:  rgba(78, 70, 70, 0.432) ;
+    border: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.256);
+}
+
 
 .down-arow{
     position: relative;
@@ -641,6 +660,7 @@ hr{
 *{
     padding: 0px;
     margin: 0px auto;
+  
 }
 
 main{
@@ -893,7 +913,7 @@ main{
 
 .bmi-2{
     width: calc(100% - 10px);
-    height: 620px;
+    height: 650px;
     background-color: rgba(78, 76, 76, 0.322);
 }
 
@@ -957,14 +977,18 @@ td{
 }
 /* form style */
 
-label{
-    display: block;
-    
-    
+.form-container{
+    width: calc(100% - 0px);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+
 }
 
+
+
 input{
-    padding: 10px 0px 10px 5px;
+    padding: 15px 0px 15px 10px;
     border-radius: 8px;
     margin-bottom: 10px;
     align-items: center;
@@ -973,22 +997,32 @@ input{
     font-size: 15px;
 }
 
-.input-2{
-  padding: 10px 190px 10px 8px ;
-  position: relative;
-  top: -20px;
+#sex{
+    padding: 14px 137px 14px 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-items: left;
+    background-color:  rgba(78, 70, 70, 0.432) ;
+    border: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.256);
 }
 
-.down-arow{
-    position: relative;
-    left: 350px;
-    top: -60px;
+#factor{
+    padding: 15px 195px 15px 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-items: left;
+    background-color:  rgba(78, 70, 70, 0.432) ;
+    border: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.256);
+    /* position: relative;
+    top: -10; */
 }
 
-.arow-1{
-    position: relative;
-    top: -40px;
-}
+
+
 
 .form-btn{
     font-size: 18px;
@@ -996,8 +1030,8 @@ input{
     height: 50px;
     border: none;
     text-align: center ;
-    position: relative;
-    top: -40px;
+    /* position: relative;
+    top: -20px; */
 
 } 
 

@@ -159,16 +159,22 @@
                     income or access to a gym. </p>
 
                 <form class="set-form">
-                    <label for="" class="lable-1">
-                        <input type="text" placeholder="Height/cm">
-                        <input type="text" placeholder="Weight/cm">
-                    </label>
-                    <label for="" class="lable-1">
-                        <input type="text" placeholder="Age">
-                        <input type="text" placeholder="Sex" >  <i class="fa-solid fa-angle-down arow-1 down-arow"></i>
-                    </label>
+                    <div class="form-container">
+                        <label for="" class="lable-1">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/cm">
+                        </label>
+                        <label for="" class="lable-1">
+                            <input type="text" placeholder="Age">
+                            <select id="sex" name="sex">
+                                <option value="sex">sex</option>
+                              </select>
+                        </label>
+                    </div>
                     <label for="" class="label-2">
-                         <input class="input-2" type="option" placeholder="Select an activity factor"> <i class="fa-solid fa-angle-down down-arow"></i> 
+                        <select id="factor" name="">
+                            <option value="Select an activity factor">Select an activity factor</option>
+                          </select> 
                     </label>
                 </form>
                 <button class="form-btn fitness-btn">Calculator</button>
